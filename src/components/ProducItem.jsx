@@ -1,29 +1,22 @@
 import { colors, styled } from "@mui/material";
 import React from "react";
+import { Icons } from "../assets";
 
-export const ProducItem = ({
-  id,
-  title,
-  price,
-  image,
-  sizes,
-  category,
-  colors,
-  dateOfCreation,
-}) => {
-  console.log(colors);
-
+export const ProducItem = ({ id, title, price, image, sizes, colors }) => {
   return (
     <StyledLI>
-      {/* <b>{id}</b> */}
       <StyledColors>
         <StyledTitle>{title}</StyledTitle>
+        <StyledIcon>
+          <Icons.CopyIcon />
+          <Icons.Edit />
+          <Icons.Remove />
+        </StyledIcon>
       </StyledColors>
 
       <StyledDiv>
         <StyledCart>
           <StyledImg src={image} alt="kjvj" />
-
           <div>
             <StyledColor>
               <p>Цвета в наличи</p>
@@ -60,6 +53,10 @@ export const ProducItem = ({
     </StyledLI>
   );
 };
+const StyledIcon = styled("div")({
+  display: "flex",
+  gap: "16px",
+});
 const StyledLI = styled("li")({
   display: "flex",
   flexDirection: "column",
@@ -109,9 +106,9 @@ const StyledImg = styled("img")({
 });
 const StyledColors = styled("div")({
   display: "flex",
-  justifyContent: "center",
-  paddingLeft: "25px",
-  flexDirection: "column",
+  alignItems: "center",
+  justifyContent: "space-between",
+  padding: "0 20px 0 20px",
   width: "1162px",
   height: "54.24px",
   borderRadius: "10px",
