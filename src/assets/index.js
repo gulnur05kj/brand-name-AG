@@ -22,11 +22,10 @@ import Less2 from "../assets/icons/less2-icon.svg?react";
 import Left3 from "../assets/icons/left3-icon.svg?react";
 import Right4 from "../assets/icons/right4-icon.svg?react";
 import Plus from "../assets/icons/plus-icon.svg?react";
-
-
-
+import Box from "../assets/icons/box-icon(2).svg?react";
 
 export const Icons = {
+  Box,
   Admin,
   Eyes,
   User,
@@ -50,5 +49,5 @@ export const Icons = {
   More1,
   Less2,
   Left3,
-  Right4
+  Right4,
 };
