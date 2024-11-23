@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  AppBar,
-  Toolbar,
-  Box,
-  Typography,
-  IconButton,
-  styled,
-  Button,
-} from "@mui/material";
+import { AppBar, Toolbar, Typography, styled } from "@mui/material";
 
 import Logo from "../assets/image/Logo.png";
 import { Icons } from "../assets";
