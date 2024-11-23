@@ -16,7 +16,6 @@ const Header = () => {
         sx={{
           display: "flex",
           justifyContent: "space-between",
-
           padding: "10px 20px",
         }}
       >
