@@ -22,9 +22,7 @@ import Less2 from "../assets/icons/less2-icon.svg?react";
 import Left3 from "../assets/icons/left3-icon.svg?react";
 import Right4 from "../assets/icons/right4-icon.svg?react";
 import Plus from "../assets/icons/plus-icon.svg?react";
-
-
-
+import Logotiv from "../assets/icons/logotiv-icon.svg?react";
 
 export const Icons = {
   Admin,
@@ -50,5 +48,6 @@ export const Icons = {
   More1,
   Less2,
   Left3,
-  Right4
+  Right4,
+  Logotiv,
 };
