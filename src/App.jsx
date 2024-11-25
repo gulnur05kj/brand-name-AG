@@ -1,11 +1,5 @@
-import Input from "./components/Input";
-
 function App() {
-  return (
-    <>
-      <Input />
-    </>
-  );
+  return <></>;
 }
 
 export default App;
